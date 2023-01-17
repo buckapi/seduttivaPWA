@@ -1,119 +1,594 @@
-     <!-- Start about section -->
-        <section class="about__section section--padding mb-95">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="about__thumb d-flex">
-                            <div class="about__thumb--items">
-                                <img class="about__thumb--img border-radius-5" src="assets/assetsParts/img/other/about.png" alt="about-thumb">
-                            </div>
-                           <!--  <div class="about__thumb--items position__relative">
-                                <img class="about__thumb--img border-radius-5" src="assets/assetsParts/img/other/about-thumb-list2.webp" alt="about-thumb">
-                                <div class="banner__bideo--play about__thumb--play">
-                                    <a class="banner__bideo--play__icon about__thumb--play__icon glightbox" href="https://vimeo.com/115041822" data-gallery="video">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 31 37">
-                                            <path id="Polygon_1" data-name="Polygon 1" d="M16.783,2.878a2,2,0,0,1,3.435,0l14.977,25.1A2,2,0,0,1,33.477,31H3.523a2,2,0,0,1-1.717-3.025Z" transform="translate(31) rotate(90)" fill="currentColor"/>
-                                        </svg> 
-                                        <span class="visually-hidden">bideo play</span>
-                                    </a>
-                                </div>
-                            </div> -->
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="about__content">
-                            <span class="about__content--subtitle text__secondary mb-20">¿Quienes somos?</span>
-                            <h2 class="about__content--maintitle mb-25">Open import - Ecuador</h2>
-                            <p class="about__content--desc mb-20">Somos una empresa dedicada a la importación y venta de productos que tiene como objetivo facilitar tu estilo de vida.</p>
-                            <p class="about__content--desc mb-25">Importamos y vendemos estos productos 100% garantizados en calidad de los mismos. Somos afiliados a Amazon lo que te permite adquirir productos mediante nuestro enlace directo.</p>
-                            <p class="about__content--desc mb-25">Hacemos reportos a domicio a todo Quito y Ecuador.</p>
-                            <div class="about__author position__relative">
-                                <h3 class="about__author--name h4">Open Import</h3>
-                                <span class="about__author--rank">Tu tienda e importadora de confiaza</span>
-                               <!--  <img class="about__author--signature" src="assets/assetsParts/img/icon/signature.webp" alt="signature"> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
+   <section class="home-slider position-relative">
+        <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-        </section>
-        <!-- End about section -->
-         <section class="team__section section--padding">
-            <div class="container">
-                <div class="section__heading style2 text-center mb-40">
-                    <h2 class="section__heading--maintitle">Equipo de trabajo</h2>
-                </div>
-                <div class="team__container">
-                    <div class="row mb--n30">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 custom-col mb-30">
-                            <div class="team__items text-center">
-                                <div class="team__thumb">
-                                    <img class="team__thumb--img" src="assets/assetsParts/img/other/team1.jpg" alt="team img">
-                                </div>
-                                <div class="team__content ">
-                                    <h3 class="team__content--title">Ronny Pacheco</h3>
-                                    <span class="team__content--subtitle">CEO - cofundador</span>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 custom-col mb-30">
-                            <div class="team__items text-center">
-                                <div class="team__thumb">
-                                    <img class="team__thumb--img" src="assets/assetsParts/img/other/team2.jpg" alt="team img">
-                                </div>
-                                <div class="team__content">
-                                    <h3 class="team__content--title">Gabriel Montalván</h3>
-                                    <span class="team__content--subtitle">Socio - Cofundador</span>
-                                   
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <section class="shipping__section section--padding">
-            <div class="container">
-                <div class="shipping__inner mb-0 style2 d-flex">
-                    <div class="shipping__items style2 d-flex align-items-center">
-                        <div class="shipping__icon">  
-                            <img src="assets/assetsParts/img/other/shipping1.png" alt="icon-img">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <div class="bg-home slider-rtl-2 d-flex align-items-center" style="background:url('assets/assetsCatal/images/shop/bg2.jpg') center center;">
+                        <div class="bg-overlay bg-overlay-white opacity-5"></div>
+                        <div class="container">
+                            <div class="row align-items-center mt-5">
+                                <div class="col-lg-7 col-md-7">
+                                    <div class="title-heading mt-4">                                    
+                                        <h1 class="display-4 fw-bold mb-3 text-black">Nueva colección </h1>
+                                        <p class="para-desc text-black">Transparencias, bodys, babydoll, y más</p>
+                                        <div class="mt-4">
+                                            <a  [routerLink]="['../shops']" class="btn btn-soft-primary">Ver catálogo</a>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </div><!--end container-->
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="3000">
+                    <div class="bg-home slider-rtl-1 d-flex align-items-center" style="background:url('assets/assetsCatal/images/shop/bg1.jpg') center center;">
+                        <div class="bg-overlay bg-overlay-white opacity-5"></div>
+                        <div class="container">
+                            <div class="row align-items-center mt-5">
+                                <div class="col-lg-7 col-md-7">
+                                    <div class="title-heading mt-4">
+                                        <h1 class="display-4 fw-bold mb-3 text-black">Seduttiva </h1>
+                                        <p class="para-desc text-black">Fell sexy, fell seduttiva</p>
+                                        <div class="mt-4">
+                                            <a [routerLink]="['../shops']" class="btn btn-soft-primary">Shop Now</a>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </div><!--end container-->
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="3000">
+                    <div class="bg-home slider-rtl-3 d-flex align-items-center" style="background:url('assets/assetsCatal/images/shop/bg3.jpg') center center;">
+                        <div class="bg-overlay bg-overlay-white opacity-5"></div>
+                        <div class="container">
+                            <div class="row align-items-center mt-5">
+                                <div class="col-lg-7 col-md-7">
+                                    <div class="title-heading mt-4">
+                                        <h1 class="display-4 fw-bold mb-3 text-black">Moderna y atrevida</h1>
+                                        <p class="para-desc text-black">Luce sensacional, recuerda que se vive un dia a la vez!!.</p>
+                                        <div class="mt-4">
+                                            <a [routerLink]="['../shops']" class="btn btn-soft-primary">Shop Now</a>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </div><!--end container-->
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+
+   <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="col-md-6 mt-6 pt-2">
+                <div class="card shop-features border-0 rounded overflow-hidden">
+                    <img src="assets/assetsCatal/images/shop/fea1.jpg" class="img-fluid" alt="">
+                    <div class="category-title ms-md-4 ms-2">
+                        <h4>Summer <br> Colección</h4>
+                        <a  [routerLink]="['../shops']" class="btn btn-sm btn-soft-primary mt-2">Comprar ahora</a>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-md-6 mt-6 pt-2">
+                <div class="card shop-features border-0 rounded overflow-hidden">
+                    <img src="assets/assetsCatal/images/shop/fea2.jpg" class="img-fluid" alt="">
+                    <div class="category-title ms-md-4 ms-2">
+                        <h4>Colección <br> 2023 </h4>
+                        <a  [routerLink]="['../shops']" class="btn btn-sm btn-soft-primary mt-2">Ir a tienda</a>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+           <!--  <div class="col-md-4 mt-4 pt-2">
+                <div class="card shop-features border-0 rounded overflow-hidden">
+                    <img src="assets/assetsCatal/images/shop/fea3.jpg" class="img-fluid" alt="">
+                    <div class="category-title ms-md-4 ms-2">
+                        <h4>Summer <br> Colección</h4>
+                        <a href="javascript:void(0)" class="btn btn-sm btn-soft-primary mt-2">Shop Now</a>
+                    </div>
+                </div>
+            </div> --><!--end col-->
+        </div><!--end row-->
+   </div>
+
+    <section class="section">
+        <!-- Start Most Viewed Products -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h5 class="mb-0">Productos</h5>
+                </div><!--end col-->
+            </div><!--end row-->
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                    <div class="card shop-list border-0 position-relative">
+                        <ul class="label list-unstyled mb-0">
+                            <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-primary">New</a></li>
+                            <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-success">Featured</a></li>
+                            <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-warning">Sale</a></li>
+                        </ul>
+                        <div class="shop-image position-relative overflow-hidden rounded shadow">
+                            <a href="shop-product-detail.html"><img src="assets/assetsCatal/images/shop/product/s1.jpg" class="img-fluid" alt=""></a>
+                            <a href="shop-product-detail.html" class="overlay-work">
+                                <img src="assets/assetsCatal/images/shop/product/s-1.jpg" class="img-fluid" alt="">
+                            </a>
+                            <ul class="list-unstyled shop-icons">
+                                <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i data-feather="heart" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#productview" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="shop-cart.html" class="btn btn-icon btn-pills btn-soft-warning"><i data-feather="shopping-cart" class="icons"></i></a></li>
+                            </ul>
                         </div>
-                        <div class="shipping__content">
-                            <h2 class="shipping__content--title h3">Repartos  domicilio</h2>
-                            <p class="shipping__content--desc">Pide hoy y llega mañana</p>
+                        <div class="card-body content pt-4 p-2">
+                            <a href="shop-product-detail.html" class="text-dark product-name h6">Branded T-Shirt</a>
+                            <div class="d-flex justify-content-between mt-1">
+                                <h6 class="text-dark small fst-italic mb-0 mt-1">$16.00 <del class="text-danger ms-2">$21.00</del> </h6>
+                                <ul class="list-unstyled text-warning mb-0">
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="shipping__items style2 d-flex align-items-center">
-                        <div class="shipping__icon">  
-                            <img src="assets/assetsParts/img/other/shipping2.png" alt="icon-img">
+                </div><!--end col-->
+                
+                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                    <div class="card shop-list border-0 position-relative">
+                        <div class="shop-image position-relative overflow-hidden rounded shadow">
+                            <a href="shop-product-detail.html"><img src="assets/assetsCatal/images/shop/product/s2.jpg" class="img-fluid" alt=""></a>
+                            <a href="shop-product-detail.html" class="overlay-work">
+                                <img src="assets/assetsCatal/images/shop/product/s-2.jpg" class="img-fluid" alt="">
+                            </a>
+                            <ul class="list-unstyled shop-icons">
+                                <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i data-feather="heart" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#productview" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="shop-cart.html" class="btn btn-icon btn-pills btn-soft-warning"><i data-feather="shopping-cart" class="icons"></i></a></li>
+                            </ul>
                         </div>
-                        <div class="shipping__content">
-                            <h2 class="shipping__content--title h3">Soporte 12/6</h2>
-                            <p class="shipping__content--desc">Soporte de lunes a sabado</p>
+                        <div class="card-body content pt-4 p-2">
+                            <a href="shop-product-detail.html" class="text-dark product-name h6">Shopping Bag</a>
+                            <div class="d-flex justify-content-between mt-1">
+                                <h6 class="text-dark small fst-italic mb-0 mt-1">$21.00 <del class="text-danger ms-2">$25.00</del> </h6>
+                                <ul class="list-unstyled text-warning mb-0">
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="shipping__items style2 d-flex align-items-center">
-                        <div class="shipping__icon">  
-                            <img src="assets/assetsParts/img/other/shipping3.png" alt="icon-img">
+                </div><!--end col-->
+                
+                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                    <div class="card shop-list border-0 position-relative">
+                        <ul class="label list-unstyled mb-0">
+                            <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-warning">Sale</a></li>
+                        </ul>
+                        <div class="shop-image position-relative overflow-hidden rounded shadow">
+                            <a href="shop-product-detail.html"><img src="assets/assetsCatal/images/shop/product/s3.jpg" class="img-fluid" alt=""></a>
+                            <a href="shop-product-detail.html" class="overlay-work">
+                                <img src="assets/assetsCatal/images/shop/product/s-3.jpg" class="img-fluid" alt="">
+                            </a>
+                            <ul class="list-unstyled shop-icons">
+                                <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i data-feather="heart" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#productview" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="shop-cart.html" class="btn btn-icon btn-pills btn-soft-warning"><i data-feather="shopping-cart" class="icons"></i></a></li>
+                            </ul>
                         </div>
-                        <div class="shipping__content">
-                            <h2 class="shipping__content--title h3">100% garantizados</h2>
-                            <p class="shipping__content--desc">Aceptamos devoluciones por defecto de fabrica</p>
+                        <div class="card-body content pt-4 p-2">
+                            <a href="shop-product-detail.html" class="text-dark product-name h6">Elegent Watch</a>
+                            <div class="d-flex justify-content-between mt-1">
+                                <h6 class="text-dark small fst-italic mb-0 mt-1">$5.00 <span class="text-success ms-1">30% off</span> </h6>
+                                <ul class="list-unstyled text-warning mb-0">
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="shipping__items style2 d-flex align-items-center">
-                        <div class="shipping__icon">  
-                            <img src="assets/assetsParts/img/other/shipping4.png" alt="icon-img">
+                </div><!--end col-->
+                
+                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                    <div class="card shop-list border-0 position-relative">
+                        <div class="shop-image position-relative overflow-hidden rounded shadow">
+                            <a href="shop-product-detail.html"><img src="assets/assetsCatal/images/shop/product/s4.jpg" class="img-fluid" alt=""></a>
+                            <a href="shop-product-detail.html" class="overlay-work">
+                                <img src="assets/assetsCatal/images/shop/product/s-4.jpg" class="img-fluid" alt="">
+                            </a>
+                            <ul class="list-unstyled shop-icons">
+                                <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i data-feather="heart" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#productview" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="shop-cart.html" class="btn btn-icon btn-pills btn-soft-warning"><i data-feather="shopping-cart" class="icons"></i></a></li>
+                            </ul>
                         </div>
-                        <div class="shipping__content">
-                            <h2 class="shipping__content--title h3">Pago seguro</h2>
-                            <p class="shipping__content--desc">Hacemos uso de diferentes medios de pagos para su comidad y seguridad.</p>
+                        <div class="card-body content pt-4 p-2">
+                            <a href="shop-product-detail.html" class="text-dark product-name h6">Casual Shoes</a>
+                            <div class="d-flex justify-content-between mt-1">
+                                <h6 class="text-dark small fst-italic mb-0 mt-1">$18.00 <del class="text-danger ms-2">$22.00</del> </h6>
+                                <ul class="list-unstyled text-warning mb-0">
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+                
+                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                    <div class="card shop-list border-0 position-relative">
+                        <ul class="label list-unstyled mb-0">
+                            <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-warning">Sale</a></li>
+                        </ul>
+                        <div class="shop-image position-relative overflow-hidden rounded shadow">
+                            <a href="shop-product-detail.html"><img src="assets/assetsCatal/images/shop/product/s5.jpg" class="img-fluid" alt=""></a>
+                            <a href="shop-product-detail.html" class="overlay-work">
+                                <img src="assets/assetsCatal/images/shop/product/s-5.jpg" class="img-fluid" alt="">
+                            </a>
+                            <ul class="list-unstyled shop-icons">
+                                <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i data-feather="heart" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#productview" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="shop-cart.html" class="btn btn-icon btn-pills btn-soft-warning"><i data-feather="shopping-cart" class="icons"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="card-body content pt-4 p-2">
+                            <a href="shop-product-detail.html" class="text-dark product-name h6">Earphones</a>
+                            <div class="d-flex justify-content-between mt-1">
+                                <h6 class="text-dark small fst-italic mb-0 mt-1">$3.00</h6>
+                                <ul class="list-unstyled text-warning mb-0">
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+                
+                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                    <div class="card shop-list border-0 position-relative">
+                        <div class="shop-image position-relative overflow-hidden rounded shadow">
+                            <a href="shop-product-detail.html"><img src="assets/assetsCatal/images/shop/product/s6.jpg" class="img-fluid" alt=""></a>
+                            <div class="overlay-work">
+                                <div class="py-2 bg-soft-dark rounded-bottom out-stock">
+                                    <h6 class="mb-0 text-center">Out of stock</h6>
+                                </div>
+                            </div>
+                            <ul class="list-unstyled shop-icons">
+                                <li><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#productview" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye" class="icons"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="card-body content pt-4 p-2">
+                            <a href="shop-product-detail.html" class="text-dark product-name h6">Elegent Mug</a>
+                            <div class="d-flex justify-content-between mt-1">
+                                <h6 class="text-dark small fst-italic mb-0 mt-1">$4.50 <del class="text-danger ms-2">$6.50</del> </h6>
+                                <ul class="list-unstyled text-warning mb-0">
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+                
+                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                    <div class="card shop-list border-0 position-relative">
+                        <div class="shop-image position-relative overflow-hidden rounded shadow">
+                            <a href="shop-product-detail.html"><img src="assets/assetsCatal/images/shop/product/s7.jpg" class="img-fluid" alt=""></a>
+                            <a href="shop-product-detail.html" class="overlay-work">
+                                <img src="assets/assetsCatal/images/shop/product/s-7.jpg" class="img-fluid" alt="">
+                            </a>
+                            <ul class="list-unstyled shop-icons">
+                                <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i data-feather="heart" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#productview" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="shop-cart.html" class="btn btn-icon btn-pills btn-soft-warning"><i data-feather="shopping-cart" class="icons"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="card-body content pt-4 p-2">
+                            <a href="shop-product-detail.html" class="text-dark product-name h6">Sony Headphones</a>
+                            <div class="d-flex justify-content-between mt-1">
+                                <h6 class="text-dark small fst-italic mb-0 mt-1">$9.99 <span class="text-success ms-2">20% off</span> </h6>
+                                <ul class="list-unstyled text-warning mb-0">
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+                
+                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                    <div class="card shop-list border-0 position-relative">
+                        <ul class="label list-unstyled mb-0">
+                            <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-success">Featured</a></li>
+                        </ul>
+                        <div class="shop-image position-relative overflow-hidden rounded shadow">
+                            <a href="shop-product-detail.html"><img src="assets/assetsCatal/images/shop/product/s8.jpg" class="img-fluid" alt=""></a>
+                            <a href="shop-product-detail.html" class="overlay-work">
+                                <img src="assets/assetsCatal/images/shop/product/s-8.jpg" class="img-fluid" alt="">
+                            </a>
+                            <ul class="list-unstyled shop-icons">
+                                <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i data-feather="heart" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#productview" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="shop-cart.html" class="btn btn-icon btn-pills btn-soft-warning"><i data-feather="shopping-cart" class="icons"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="card-body content pt-4 p-2">
+                            <a href="shop-product-detail.html" class="text-dark product-name h6">Wooden Stools</a>
+                            <div class="d-flex justify-content-between mt-1">
+                                <h6 class="text-dark small fst-italic mb-0 mt-1">$22.00 <del class="text-danger ms-2">$25.00</del> </h6>
+                                <ul class="list-unstyled text-warning mb-0">
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
+        </div><!--end container-->
+      
+  <!--  <div class="container mt-100 mt-60">
+            <div class="row">
+                <div class="col-12">
+                    <h5 class="mb-0">Top Categories</h5>
+               
+            </div>
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-6 mt-4 pt-2">
+                    <div class="card features feature-primary explore-feature border-0 rounded text-center">
+                        <div class="card-body">
+                            <img src="assets/assetsCatal/images/shop/categories/fashion.jpg" class="avatar avatar-small rounded-circle shadow-md" alt="">
+                            <div class="content mt-3">
+                                <h6 class="mb-0"><a href="javascript:void(0)" class="title text-dark">Fashion</a></h6>
+                            </div>
+                        </div>
+                    </div>
+               
+                <div class="col-lg-2 col-md-4 col-6 mt-4 pt-2">
+                    <div class="card features feature-primary explore-feature border-0 rounded text-center">
+                        <div class="card-body">
+                            <img src="assets/assetsCatal/images/shop/categories/sports.jpg" class="avatar avatar-small rounded-circle shadow-md" alt="">
+                            <div class="content mt-3">
+                                <h6 class="mb-0"><a href="javascript:void(0)" class="title text-dark">Sports</a></h6>
+                            </div>
+                        </div>
+                    </div>
+               
+                <div class="col-lg-2 col-md-4 col-6 mt-4 pt-2">
+                    <div class="card features feature-primary explore-feature border-0 rounded text-center">
+                        <div class="card-body">
+                            <img src="assets/assetsCatal/images/shop/categories/music.jpg" class="avatar avatar-small rounded-circle shadow-md" alt="">
+                            <div class="content mt-3">
+                                <h6 class="mb-0"><a href="javascript:void(0)" class="title text-dark">Music</a></h6>
+                            </div>
+                        </div>
+                    </div>
+               
+                <div class="col-lg-2 col-md-4 col-6 mt-4 pt-2">
+                    <div class="card features feature-primary explore-feature border-0 rounded text-center">
+                        <div class="card-body">
+                            <img src="assets/assetsCatal/images/shop/categories/furniture.jpg" class="avatar avatar-small rounded-circle shadow-md" alt="">
+                            <div class="content mt-3">
+                                <h6 class="mb-0"><a href="javascript:void(0)" class="title text-dark">Furniture</a></h6>
+                            </div>
+                        </div>
+                    </div>
+               
+                <div class="col-lg-2 col-md-4 col-6 mt-4 pt-2">
+                    <div class="card features feature-primary explore-feature border-0 rounded text-center">
+                        <div class="card-body">
+                            <img src="assets/assetsCatal/images/shop/categories/electronics.jpg" class="avatar avatar-small rounded-circle shadow-md" alt="">
+                            <div class="content mt-3">
+                                <h6 class="mb-0"><a href="javascript:void(0)" class="title text-dark">Electronics</a></h6>
+                            </div>
+                        </div>
+                    </div>
+               
+                <div class="col-lg-2 col-md-4 col-6 mt-4 pt-2">
+                    <div class="card features feature-primary explore-feature border-0 rounded text-center">
+                        <div class="card-body">
+                            <img src="assets/assetsCatal/images/shop/categories/mobile.jpg" class="avatar avatar-small rounded-circle shadow-md" alt="">
+                            <div class="content mt-3">
+                                <h6 class="mb-0"><a href="javascript:void(0)" class="title text-dark">Mobiles</a></h6>
+                            </div>
+                        </div>
+                    </div>
+               
+            </div>
+        </div> -->
+
+
+      
+        <!-- Start CTA -->
+        <div class="container-fluid mt-100 mt-60">
+            <div class="rounded py-5" style="background: url('assets/assetsCatal/images/shop/cta.jpg') fixed;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="section-title">
+                                <h2 class="fw-bold text-black mb-4">End of Season Clearance <br> Sale upto 30%</h2>
+                                <p class="para-desc text-black mb-0">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                                <div class="mt-4">
+                                    <a href="javascript:void(0)" class="btn btn-primary">Shop Now</a>
+                                </div>
+                            </div>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div>
+        </div><!--end container-->
+        <!-- End CTA -->
+
+        <!-- Start Recent -->
+        <!-- <div class="container mt-100 mt-60">
+            <div class="row">
+                <div class="col-12">
+                    <h5 class="mb-0">Recent Products</h5>
+               
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                    <div class="card shop-list border-0 position-relative">
+                        <ul class="label list-unstyled mb-0">
+                            <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-primary">New</a></li>
+                        </ul>
+                        <div class="shop-image position-relative overflow-hidden rounded shadow">
+                            <a href="shop-product-detail.html"><img src="assets/assetsCatal/images/shop/product/s13.jpg" class="img-fluid" alt=""></a>
+                            <a href="shop-product-detail.html" class="overlay-work">
+                                <img src="assets/assetsCatal/images/shop/product/s-13.jpg" class="img-fluid" alt="">
+                            </a>
+                            <ul class="list-unstyled shop-icons">
+                                <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i data-feather="heart" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#productview" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="shop-cart.html" class="btn btn-icon btn-pills btn-soft-warning"><i data-feather="shopping-cart" class="icons"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="card-body content pt-4 p-2">
+                            <a href="shop-product-detail.html" class="text-dark product-name h6">Wooden Chair</a>
+                            <div class="d-flex justify-content-between mt-1">
+                                <h6 class="text-dark small fst-italic mb-0 mt-1">$16.00 <del class="text-danger ms-2">$21.00</del> </h6>
+                                <ul class="list-unstyled text-warning mb-0">
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                    <div class="card shop-list border-0 position-relative">
+                        <ul class="label list-unstyled mb-0">
+                            <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-primary">New</a></li>
+                        </ul>
+                        <div class="shop-image position-relative overflow-hidden rounded shadow">
+                            <a href="shop-product-detail.html"><img src="assets/assetsCatal/images/shop/product/s14.jpg" class="img-fluid" alt=""></a>
+                            <div class="overlay-work">
+                                <div class="py-2 bg-soft-dark rounded-bottom out-stock">
+                                    <h6 class="mb-0 text-center">Out of stock</h6>
+                                </div>
+                            </div>
+                            <ul class="list-unstyled shop-icons">
+                                <li><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#productview" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye" class="icons"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="card-body content pt-4 p-2">
+                            <a href="shop-product-detail.html" class="text-dark product-name h6">Women Block Heels</a>
+                            <div class="d-flex justify-content-between mt-1">
+                                <h6 class="text-dark small fst-italic mb-0 mt-1">$21.00 <del class="text-danger ms-2">$25.00</del> </h6>
+                                <ul class="list-unstyled text-warning mb-0">
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                    <div class="card shop-list border-0 position-relative">
+                        <ul class="label list-unstyled mb-0">
+                            <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-primary">New</a></li>
+                        </ul>
+                        <div class="shop-image position-relative overflow-hidden rounded shadow">
+                            <a href="shop-product-detail.html"><img src="assets/assetsCatal/images/shop/product/s15.jpg" class="img-fluid" alt=""></a>
+                            <a href="shop-product-detail.html" class="overlay-work">
+                                <img src="assets/assetsCatal/images/shop/product/s-15.jpg" class="img-fluid" alt="">
+                            </a>
+                            <ul class="list-unstyled shop-icons">
+                                <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i data-feather="heart" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#productview" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="shop-cart.html" class="btn btn-icon btn-pills btn-soft-warning"><i data-feather="shopping-cart" class="icons"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="card-body content pt-4 p-2">
+                            <a href="shop-product-detail.html" class="text-dark product-name h6">T-Shirts</a>
+                            <div class="d-flex justify-content-between mt-1">
+                                <h6 class="text-dark small fst-italic mb-0 mt-1">$5.00 <span class="text-success ms-1">30% off</span> </h6>
+                                <ul class="list-unstyled text-warning mb-0">
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                    <div class="card shop-list border-0 position-relative">
+                        <ul class="label list-unstyled mb-0">
+                            <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-primary">New</a></li>
+                            <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-success">Featured</a></li>
+                            <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-warning">Sale</a></li>
+                        </ul>
+                        <div class="shop-image position-relative overflow-hidden rounded shadow">
+                            <a href="shop-product-detail.html"><img src="assets/assetsCatal/images/shop/product/s16.jpg" class="img-fluid" alt=""></a>
+                            <a href="shop-product-detail.html" class="overlay-work">
+                                <img src="assets/assetsCatal/images/shop/product/s-16.jpg" class="img-fluid" alt="">
+                            </a>
+                            <ul class="list-unstyled shop-icons">
+                                <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i data-feather="heart" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#productview" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye" class="icons"></i></a></li>
+                                <li class="mt-2"><a href="shop-cart.html" class="btn btn-icon btn-pills btn-soft-warning"><i data-feather="shopping-cart" class="icons"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="card-body content pt-4 p-2">
+                            <a href="shop-product-detail.html" class="text-dark product-name h6">Clock</a>
+                            <div class="d-flex justify-content-between mt-1">
+                                <h6 class="text-dark small fst-italic mb-0 mt-1">$18.00 <del class="text-danger ms-2">$22.00</del> </h6>
+                                <ul class="list-unstyled text-warning mb-0">
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div> -->
+    </section>
