@@ -3854,7 +3854,7 @@ p {
 }
 
 .bg-half-170 {
-    padding: 170px 0;
+    padding: 70px 0;
     background-size: cover;
     -ms-flex-item-align: center;
     align-self: center;
@@ -4256,7 +4256,7 @@ p {
 
 @media (max-width: 767px) {
     .bg-half-170,.bg-half-260,.bg-home,.bg-marketing,.swiper-slider-hero .swiper-container .swiper-slide {
-        padding:150px 0;
+        padding:50px 0;
         height: auto
     }
 }

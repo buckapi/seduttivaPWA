@@ -126,8 +126,8 @@
                             <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-warning">Sale</a></li>
                         </ul>
                         <div class="shop-image position-relative overflow-hidden rounded shadow">
-                            <a href=""><img src="assets/assetsCatal/images/shop/product/s1.jpg" class="img-fluid" alt=""></a>
-                            <a href="" class="overlay-work">
+                            <a [routerLink]="['../product']"><img src="assets/assetsCatal/images/shop/product/s1.jpg" class="img-fluid" alt=""></a>
+                            <a [routerLink]="['../product']" class="overlay-work">
                                 <img src="assets/assetsCatal/images/shop/product/s-1.jpg" class="img-fluid" alt="">
                             </a>
                             <ul class="list-unstyled shop-icons">
@@ -137,7 +137,7 @@
                             </ul>
                         </div>
                         <div class="card-body content pt-4 p-2">
-                            <a href="" class="text-dark product-name h6">Branded T-Shirt</a>
+                            <a [routerLink]="['../product']" class="text-dark product-name h6">Branded T-Shirt</a>
                             <div class="d-flex justify-content-between mt-1">
                                 <h6 class="text-dark small fst-italic mb-0 mt-1">$16.00 <del class="text-danger ms-2">$21.00</del> </h6>
                                 
